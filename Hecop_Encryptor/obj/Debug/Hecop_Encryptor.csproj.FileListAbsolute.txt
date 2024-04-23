@@ -1,0 +1,6 @@
+D:\Data\Tailieu\Projects\C#\HeCop_UI\Hecop_Encrptor\bin\Debug\Hecop_Encryptor.dll
+D:\Data\Tailieu\Projects\C#\HeCop_UI\Hecop_Encrptor\bin\Debug\Hecop_Encryptor.pdb
+D:\Data\Tailieu\Projects\C#\HeCop_UI\Hecop_Encrptor\obj\Debug\Hecop_Encryptor.csproj.AssemblyReference.cache
+D:\Data\Tailieu\Projects\C#\HeCop_UI\Hecop_Encrptor\obj\Debug\Hecop_Encryptor.csproj.CoreCompileInputs.cache
+D:\Data\Tailieu\Projects\C#\HeCop_UI\Hecop_Encrptor\obj\Debug\Hecop_Encryptor.dll
+D:\Data\Tailieu\Projects\C#\HeCop_UI\Hecop_Encrptor\obj\Debug\Hecop_Encryptor.pdb
