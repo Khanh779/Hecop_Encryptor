@@ -50,15 +50,28 @@ namespace Hecop_Encryptor.Encryptor
             }
         }
 
-        // Lấy cặp khoá công khai và riêng
+        //// Lấy cặp khoá công khai và riêng
+        //public string GetPublicKey()
+        //{
+        //    return dsaProvider.ToXmlString(false); // Chỉ public key
+        //}
+
+        //public string GetPrivateKey()
+        //{
+        //    return dsaProvider.ToXmlString(true); // Public và private key
+        //}
+
+        // Lấy cặp khoá công khai và riêng dưới dạng chuỗi Base64 (thay vì XML)
         public string GetPublicKey()
         {
-            return dsaProvider.ToXmlString(false); // Chỉ public key
+            var publicKey = dsaProvider.ExportParameters(false);
+            return Convert.ToBase64String(publicKey.Seed); // Chỉ xuất public key, có thể tuỳ chỉnh xuất theo cách khác
         }
 
         public string GetPrivateKey()
         {
-            return dsaProvider.ToXmlString(true); // Public và private key
+            var privateKey = dsaProvider.ExportParameters(true);
+            return Convert.ToBase64String(privateKey.Seed); // Xuất private key (thông qua Base64)
         }
     }
 }

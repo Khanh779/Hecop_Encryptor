@@ -43,7 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Encryptor\AESEncryption.cs" />
-    <Compile Include="Encryptor\CaesarCipher.cs" />
     <Compile Include="Encryptor\DESEncryption.cs" />
     <Compile Include="Encryptor\DsaEncryption.cs" />
     <Compile Include="Encryptor\RSAEncryption.cs" />

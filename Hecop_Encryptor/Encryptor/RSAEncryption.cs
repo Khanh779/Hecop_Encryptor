@@ -49,11 +49,24 @@ namespace Hecop_Encryptor.Encryptor
             return rsa.Decrypt(data, RSAEncryptionPadding.Pkcs1);
         }
 
-        // Đặt cặp khoá (private và public)
+        //// Đặt cặp khoá (private và public)
         public void SetKeys(string publicKey, string privateKey)
         {
             rsa.FromXmlString(privateKey);
             rsa.FromXmlString(publicKey);
+        }
+
+
+        // Xuất khoá công khai dưới dạng XML
+        public string GetPublicKey()
+        {
+            return rsa.ToXmlString(false);  // Chỉ xuất khóa công khai
+        }
+
+        // Xuất khoá riêng dưới dạng XML
+        public string GetPrivateKey()
+        {
+            return rsa.ToXmlString(true);   // Xuất cả khóa riêng và công khai
         }
     }
 }
