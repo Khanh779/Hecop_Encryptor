@@ -27,6 +27,9 @@ namespace Hecop_Encryptor.Encryptor
                 aesAlg.Key = System.Text.Encoding.UTF8.GetBytes(this.key);
                 aesAlg.IV = System.Text.Encoding.UTF8.GetBytes(this.iv);
 
+                aesAlg.BlockSize = GlobalValue.AESBlockSize;
+                aesAlg.KeySize = GlobalValue.AESKeySize;
+
                 using (ICryptoTransform encryptor = aesAlg.CreateEncryptor(aesAlg.Key, aesAlg.IV))
                 {
                     using (MemoryStream ms = new MemoryStream())
@@ -49,6 +52,9 @@ namespace Hecop_Encryptor.Encryptor
             {
                 aesAlg.Key = System.Text.Encoding.UTF8.GetBytes(this.key);
                 aesAlg.IV = System.Text.Encoding.UTF8.GetBytes(this.iv);
+
+                aesAlg.BlockSize = GlobalValue.AESBlockSize;
+                aesAlg.KeySize = GlobalValue.AESKeySize;
 
                 using (ICryptoTransform decryptor = aesAlg.CreateDecryptor(aesAlg.Key, aesAlg.IV))
                 {
