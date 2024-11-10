@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|d:\\data\\tailieu\\projects\\c#\\hecop_encryptor\\hecop_encryptor\\encryptor\\dsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|solutionrelative:hecop_encryptor\\encryptor\\dsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|d:\\data\\tailieu\\projects\\c#\\hecop_encryptor\\hecop_encryptor\\encryptor\\rsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|solutionrelative:hecop_encryptor\\encryptor\\rsaencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|d:\\data\\tailieu\\projects\\c#\\hecop_encryptor\\hecop_encryptor\\encryptor\\desencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|solutionrelative:hecop_encryptor\\encryptor\\desencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|d:\\data\\tailieu\\projects\\c#\\hecop_encryptor\\hecop_encryptor\\encryptor\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC011A5E-8769-4C66-8D6C-A75A88D92EB5}|Hecop_Encryptor\\Hecop_Encryptor.csproj|solutionrelative:hecop_encryptor\\encryptor\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DsaEncryption.cs",
+              "DocumentMoniker": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\DsaEncryption.cs",
+              "RelativeDocumentMoniker": "Hecop_Encryptor\\Encryptor\\DsaEncryption.cs",
+              "ToolTip": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\DsaEncryption.cs",
+              "RelativeToolTip": "Hecop_Encryptor\\Encryptor\\DsaEncryption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:39:06.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RSAEncryption.cs",
+              "DocumentMoniker": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\RSAEncryption.cs",
+              "RelativeDocumentMoniker": "Hecop_Encryptor\\Encryptor\\RSAEncryption.cs",
+              "ToolTip": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\RSAEncryption.cs",
+              "RelativeToolTip": "Hecop_Encryptor\\Encryptor\\RSAEncryption.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAzwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:06:50.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DESEncryption.cs",
+              "DocumentMoniker": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\DESEncryption.cs",
+              "RelativeDocumentMoniker": "Hecop_Encryptor\\Encryptor\\DESEncryption.cs",
+              "ToolTip": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\DESEncryption.cs",
+              "RelativeToolTip": "Hecop_Encryptor\\Encryptor\\DESEncryption.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:06:33.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AESEncryption.cs",
+              "DocumentMoniker": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\AESEncryption.cs",
+              "RelativeDocumentMoniker": "Hecop_Encryptor\\Encryptor\\AESEncryption.cs",
+              "ToolTip": "D:\\Data\\Tailieu\\Projects\\C#\\Hecop_Encryptor\\Hecop_Encryptor\\Encryptor\\AESEncryption.cs",
+              "RelativeToolTip": "Hecop_Encryptor\\Encryptor\\AESEncryption.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T09:05:45.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

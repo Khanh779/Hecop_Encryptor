@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hecop_Encryptor.CaesarCipher
+namespace Hecop_Encryptor.Encryptor
 {
     public class CaesarCipher
     {
